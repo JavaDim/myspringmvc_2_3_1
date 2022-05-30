@@ -42,7 +42,7 @@ public class UserSeviceImpl implements UserService{
         return userDao.getAllUsers();
     }
 
-    @Transactional
+  //  @Transactional
     @Override
     public User getUser(int id) {
         return userDao.getUser(id);
