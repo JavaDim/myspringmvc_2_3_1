@@ -1,6 +1,5 @@
 package web.config;
-
-import org.springframework.beans.factory.annotation.Autowired;
+;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -23,7 +22,6 @@ import java.util.Properties;
 public class HibernateJpaConfig {
     private final Environment env;
 
-    @Autowired
     public HibernateJpaConfig(Environment env) {
         this.env = env;
     }
